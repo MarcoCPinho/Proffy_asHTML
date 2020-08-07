@@ -66,8 +66,12 @@
         </header>
         <main>
 
-            {%for proffy in proffys %}
-            <article class="teacher-item">
+            {% if proffys == "" %}
+                <p class="no-results"> Nenhum professor encontrado com sua pesquisa</p>
+            {% else %}
+
+                {%for proffy in proffys %}
+                    <article class="teacher-item">
                 <header>
                     <img src="{{proffy.avatar}}" alt="{{proffy.name}}" />
                     <div>
@@ -86,8 +90,10 @@
                         contato
                     </a>
                 </footer>
-            </article>
-            {%endfor%}
+                    </article>
+                {%endfor%}
+            
+                {% endif %}
         </main>
     </div>
 </body>
