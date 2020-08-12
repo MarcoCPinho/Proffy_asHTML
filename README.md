@@ -2,7 +2,6 @@
 
 <p align="center">
 Proffy is a platform to connect teachers and students. <br>
-
 This project was developed during the NLW - Next Level Week, offered by Rocketseat.
 </p>
 <br>
@@ -31,7 +30,6 @@ Created using HTML, CSS, JavaScript and SQLite.
 - [Nodemon](https://www.npmjs.com/package/nodemon)
 - [NodeJS](https://nodejs.org/en/)
 
-
 ##  Features
 
 - [x] Responsive layout
@@ -40,8 +38,8 @@ Created using HTML, CSS, JavaScript and SQLite.
 
 ### Requirements
 
-- [x]  [Git](https://git-scm.com)
-- [x]  [Node.js](https://nodejs.org/en/). 
+- [x] [Git](https://git-scm.com)
+- [x] [Node.js](https://nodejs.org/en/). 
 - [x] [VSCode](https://code.visualstudio.com/) (or any other coder).
 
 ### 🎲 Running on local server
@@ -61,3 +59,4 @@ $ npm install
 $ npm start 
 
 # Access <http://localhost:5000> 
+```
