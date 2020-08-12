@@ -20,4 +20,4 @@ server
     .get("/study", pageStudy) //rotas de aplicação
     .get("/give-classes", pageGiveClasses) //rotas de aplicação
     .post("/save-classes", saveClasses)
-    .listen(5500) //porta do servidor
+    .listen(process.env.PORT || 5000) //porta do servidor
